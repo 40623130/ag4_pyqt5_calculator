@@ -49,7 +49,8 @@ class Dialog(QDialog, Ui_Dialog):
         if self.wait:
             self.display.clear()
             self.wait = False
-            
+        if self.display.text() == '0':
+            return
         clickedButton = self.sender()
         digitValue = int(clickedButton.text())
     
