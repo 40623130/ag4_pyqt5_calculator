@@ -37,7 +37,7 @@ class Dialog(QDialog, Ui_Dialog):
         self.equalButton.clicked.connect(self.equalClicked)
         self.clearButton.clicked.connect(self.clear)
         self.backspaceButton.clicked.connect(self.backspaceClicked)
-        self.squareRootButton.clicked.connect(self.backspaceClicked)
+        self.pushButton_22.clicked.connect(self.pointClicked)
 
     def digitClicked(self):
         '''
@@ -78,8 +78,14 @@ class Dialog(QDialog, Ui_Dialog):
         
     def pointClicked(self):
         '''小數點按下後的處理方法'''
-        pass
-        
+        #pass
+        if self.wait:
+            self.display.setText('0')
+ 
+        if "." not in self.display.text():
+            self.display.setText(self.display.text() + ".")
+ 
+        self.wait = False
     def changeSignClicked(self):
         '''變號鍵按下後的處理方法'''
         pass
