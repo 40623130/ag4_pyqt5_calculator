@@ -24,6 +24,7 @@ class Dialog(QDialog, Ui_Dialog):
         super(Dialog, self).__init__(parent)
         self.setupUi(self)
         '''以下為使用者自行編寫程式碼區'''
+        self.display.setText('0')
         num = [self.one,  self.two,  self.three, \
             self.four,  self.five,  self.six, \
             self.seven,  self.eight,  self.nine,  self.zero]
@@ -72,7 +73,9 @@ class Dialog(QDialog, Ui_Dialog):
         
     def clear(self):
         '''清除鍵按下後的處理方法'''
-        pass
+        #pass
+        self.display.setText('0')
+        self.wait
         
     def clearAll(self):
         '''全部清除鍵按下後的處理方法'''
