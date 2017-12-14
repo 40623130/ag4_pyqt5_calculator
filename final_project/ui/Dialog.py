@@ -44,7 +44,6 @@ class Dialog(QDialog, Ui_Dialog):
         digitValue = int(clickedButton.text())
     
         self.display.setText(self.display.text() + str(digitValue))
-        
     def unaryOperatorClicked(self):
         '''單一運算元按下後處理方法'''
         pass
