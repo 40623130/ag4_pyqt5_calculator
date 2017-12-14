@@ -31,7 +31,10 @@ class Dialog(QDialog, Ui_Dialog):
         for i in num:
             i.clicked.connect(self.digitClicked)
         self.clearAllButton.clicked.connect(self.clearAll)
-        
+        self.wait = True
+        self.plusButton.clicked.connect(self.additiveOperatorClicked)
+        self.temp = 0
+        self.equalButton.clicked.connect(self.equalClicked)
 
     def digitClicked(self):
         '''
@@ -40,6 +43,10 @@ class Dialog(QDialog, Ui_Dialog):
         
         '''
         #pass
+        if self.wait:
+            self.display.clear()
+            self.wait = False
+            
         clickedButton = self.sender()
         digitValue = int(clickedButton.text())
     
@@ -50,7 +57,10 @@ class Dialog(QDialog, Ui_Dialog):
         
     def additiveOperatorClicked(self):
         '''加或減按下後進行的處理方法'''
-        pass
+        #pass
+        self.temp = float(self.display.text())
+        self.display.clear()
+        
         
     def multiplicativeOperatorClicked(self):
         '''乘或除按下後進行的處理方法'''
@@ -58,7 +68,10 @@ class Dialog(QDialog, Ui_Dialog):
         
     def equalClicked(self):
         '''等號按下後的處理方法'''
-        pass
+        #pass
+        #print(self.temp,  self.display.text())
+        self.display.setText(str(self.temp + float(self.display.text())))
+        self.wait = True
         
     def pointClicked(self):
         '''小數點按下後的處理方法'''
@@ -81,6 +94,8 @@ class Dialog(QDialog, Ui_Dialog):
     def clearAll(self):
         '''全部清除鍵按下後的處理方法'''
         #pass
+        self.wait = True
+        #self.temp = 0
         self.display.setText('0')
         
     def clearMemory(self):
