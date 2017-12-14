@@ -30,6 +30,8 @@ class Dialog(QDialog, Ui_Dialog):
             self.seven,  self.eight,  self.nine,  self.zero]
         for i in num:
             i.clicked.connect(self.digitClicked)
+        self.clearAllButton.clicked.connect(self.clearAll)
+        
 
     def digitClicked(self):
         '''
@@ -79,7 +81,8 @@ class Dialog(QDialog, Ui_Dialog):
         
     def clearAll(self):
         '''全部清除鍵按下後的處理方法'''
-        pass
+        #pass
+        self.display.setText('0')
         
     def clearMemory(self):
         '''清除記憶體鍵按下後的處理方法'''
