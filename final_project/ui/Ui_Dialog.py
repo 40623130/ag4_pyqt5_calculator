@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Y:\tmp\github\scrum_pyqt5_calculator\final_project\ui\Dialog.ui'
+# Form implementation generated from reading ui file 'Y:\tmp\github\ag4_pyqt5_calculator\final_project\ui\Dialog.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
@@ -252,7 +252,7 @@ class Ui_Dialog(object):
         self.eight.setText(_translate("Dialog", "8"))
         self.nine.setText(_translate("Dialog", "9"))
         self.divisionButton.setText(_translate("Dialog", "/"))
-        self.squareRootButton.setText(_translate("Dialog", "Sqrt"))
+        self.squareRootButton.setText(_translate("Dialog", "√"))
         self.readMemoryButton.setText(_translate("Dialog", "MR"))
         self.four.setText(_translate("Dialog", "4"))
         self.five.setText(_translate("Dialog", "5"))
@@ -264,11 +264,11 @@ class Ui_Dialog(object):
         self.two.setText(_translate("Dialog", "2"))
         self.three.setText(_translate("Dialog", "3"))
         self.minusButton.setText(_translate("Dialog", "-"))
-        self.reciprocalButton.setText(_translate("Dialog", "1/x"))
+        self.reciprocalButton.setText(_translate("Dialog", "1/X"))
         self.addToMemoryButton.setText(_translate("Dialog", "M+"))
         self.zero.setText(_translate("Dialog", "0"))
         self.pushButton_22.setText(_translate("Dialog", "."))
-        self.pushButton_20.setText(_translate("Dialog", "+-"))
+        self.pushButton_20.setText(_translate("Dialog", "±"))
         self.plusButton.setText(_translate("Dialog", "+"))
         self.equalButton.setText(_translate("Dialog", "="))
         self.backspaceButton.setText(_translate("Dialog", "Backspace"))

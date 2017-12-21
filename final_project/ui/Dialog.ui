@@ -169,7 +169,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Sqrt</string>
+      <string>√</string>
      </property>
     </widget>
    </item>
@@ -457,7 +457,7 @@
       </font>
      </property>
      <property name="text">
-      <string>1/x</string>
+      <string>1/X</string>
      </property>
     </widget>
    </item>
@@ -553,7 +553,7 @@
       </font>
      </property>
      <property name="text">
-      <string>+-</string>
+      <string>±</string>
      </property>
     </widget>
    </item>
