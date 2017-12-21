@@ -37,6 +37,7 @@ class Dialog(QDialog, Ui_Dialog):
         self.divisionButton.clicked.connect(self.multiplicativeOperatorClicked)
         self.timesButton.clicked.connect(self.multiplicativeOperatorClicked)
         self.temp = 0
+        #正負號
         self.changeSignButton.clicked.connect(self.changeSignClicked)
         self.equalButton.clicked.connect(self.equalClicked)
         self.clearButton.clicked.connect(self.clear)
