@@ -119,7 +119,7 @@ class Dialog(QDialog, Ui_Dialog):
             text = '0'
             self.waitingForOperand = True
             self.display.clear()
-            self.wait = False
+            self.wait = True
  
         self.display.setText(text)
         
