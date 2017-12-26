@@ -52,6 +52,8 @@ class Dialog(QDialog, Ui_Dialog):
         self.pendingAdditiveOperator = ''
         # + -的運算值
         self.sumSoFar = 0.0
+        self.timesButton.clicked.connect(self.multiplicativeOperatorClicked)
+        self.squareRootButton.clicked.connect(self.unaryOperatorClicked)
 
     def digitClicked(self):
         '''
@@ -70,7 +72,9 @@ class Dialog(QDialog, Ui_Dialog):
         self.display.setText(self.display.text() + str(digitValue))
     def unaryOperatorClicked(self):
         '''單一運算元按下後處理方法'''
-        pass
+        #pass
+   
+
         
     def additiveOperatorClicked(self):
         '''加或減按下後進行的處理方法'''
@@ -85,7 +89,8 @@ class Dialog(QDialog, Ui_Dialog):
     def multiplicativeOperatorClicked(self):
         '''乘或除按下後進行的處理方法'''
         #pass
-        self.temp = float(self.display.text())
+        clickedOperator = clickedButton.text()
+        operand = float(self.display.text())
         self.display.clear()
         
     def equalClicked(self):
