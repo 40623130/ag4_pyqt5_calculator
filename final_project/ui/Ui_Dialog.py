@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Y:\tmp\github\ag4\final_project\ui\Dialog.ui'
+# Form implementation generated from reading ui file 'Y:\tmp\github\ag4_pyqt5_calculator\final_project\ui\Dialog.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
@@ -258,7 +258,7 @@ class Ui_Dialog(object):
         self.five.setText(_translate("Dialog", "5"))
         self.six.setText(_translate("Dialog", "6"))
         self.timesButton.setText(_translate("Dialog", "*"))
-        self.powerButton.setText(_translate("Dialog", "X^2"))
+        self.powerButton.setText(_translate("Dialog", "X²"))
         self.setMemoryButton.setText(_translate("Dialog", "MS"))
         self.one.setText(_translate("Dialog", "1"))
         self.two.setText(_translate("Dialog", "2"))
