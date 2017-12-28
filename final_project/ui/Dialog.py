@@ -124,8 +124,7 @@ class Dialog(QDialog, Ui_Dialog):
             self.pendingAdditiveOperator = ''
         else:
             self.sumSoFar = operand
- 
-        self.display.setText(str(self.sumSoFar))
+        self.display.setText(str(self.temp + self.sumSoFar))
         self.sumSoFar = 0.0
         self.waitingForOperand = True
         
@@ -173,7 +172,7 @@ class Dialog(QDialog, Ui_Dialog):
         '''全部清除鍵按下後的處理方法'''
         #pass
         self.wait = True
-        #self.temp = 0
+        self.temp = 0
         self.display.setText('0')
         self.sumSoFar = 0.0
         
