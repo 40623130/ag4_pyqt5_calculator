@@ -3,7 +3,7 @@
 """
 Module implementing Dialog.
 """
-
+import math
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QDialog
 
@@ -53,8 +53,9 @@ class Dialog(QDialog, Ui_Dialog):
         # + -的運算值
         self.sumSoFar = 0.0
         self.factorSoFar = 0.0
-        self.squareRootButton.clicked.connect(self.unaryOperatorClicked)
-
+        unaryOperator = [self.squareRootButton, self.powerButton,  self.reciprocalButton ]
+        for i in unaryOperator:
+            i.clicked.connect(self.unaryOperatorClicked)
     def digitClicked(self):
         '''
         使用者按下數字鍵, 必須能夠累積顯示該數字
@@ -72,9 +73,27 @@ class Dialog(QDialog, Ui_Dialog):
         self.display.setText(self.display.text() + str(digitValue))
     def unaryOperatorClicked(self):
         '''單一運算元按下後處理方法'''
-        #pass
-   
-
+        clickedButton = self.sender()
+        clickedOperator = clickedButton.text()
+        operand = float(self.display.text())
+ 
+        if clickedOperator == "√":
+            if operand < 0.0:
+                self.abortOperation()
+                return
+ 
+            result = math.sqrt(operand)
+        elif clickedOperator == "X²":
+            result = math.pow(operand, 2.0)
+        elif clickedOperator == "1/x":
+            if operand == 0.0:
+                self.abortOperation()
+                return
+ 
+            result = 1.0 / operand
+ 
+        self.display.setText(str(result))
+        self.waitingForOperand = True
         
     def additiveOperatorClicked(self):
         '''加或減按下後進行的處理方法'''
