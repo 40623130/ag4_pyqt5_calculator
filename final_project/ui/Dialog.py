@@ -85,26 +85,36 @@ class Dialog(QDialog, Ui_Dialog):
             result = math.sqrt(operand)
         elif clickedOperator == "X²":
             result = math.pow(operand, 2.0)
-        elif clickedOperator == "1/x":
+        elif clickedOperator == "1/X":
             if operand == 0.0:
                 self.abortOperation()
                 return
- 
             result = 1.0 / operand
- 
         self.display.setText(str(result))
         self.waitingForOperand = True
-        
     def additiveOperatorClicked(self):
         '''加或減按下後進行的處理方法'''
-        #pass
         clickedButton = self.sender()
         clickedOperator = clickedButton.text()
+        operand = float(self.display.text())
+        if self.pendingMultiplicativeOperator:
+            if not self.calculate(operand, self.pendingMultiplicativeOperator):
+                self.abortOperation()
+                return
+ 
+            self.display.setText(str(self.factorSoFar))
+            operand = self.factorSoFar
+            self.factorSoFar = 0.0
+            self.pendingMultiplicativeOperator = ''
+        if self.pendingAdditiveOperator:
+            if not self.calculate(operand, self.pendingAdditiveOperator):
+                self.abortOperation()
+                return
+            self.display.setText(str(self.sumSoFar))
+        else:
+            self.sumSoFar = operand
         self.pendingAdditiveOperator = clickedOperator
-        self.temp = float(self.display.text())
-        self.display.clear()
-        
-        
+        self.wait = True
     def multiplicativeOperatorClicked(self):
         '''乘或除按下後進行的處理方法'''
         #pass
@@ -229,10 +239,10 @@ class Dialog(QDialog, Ui_Dialog):
         elif pendingOperator == "-":
             self.sumSoFar -= rightOperand
  
-        elif pendingOperator == "*":
+        elif pendingOperator == "×":
             self.factorSoFar *= rightOperand
  
-        elif pendingOperator == "/":
+        elif pendingOperator == "÷":
             if rightOperand == 0.0:
                 return False
  
