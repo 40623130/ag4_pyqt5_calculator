@@ -10,4 +10,11 @@ https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5
 
 https://ithelp.ithome.com.tw/articles/10158587
 
+https://docs.python.org/2.4/lib/typesseq.html
+
+http://www.runoob.com/python/python-func-str.html
+
+https://www.programiz.com/python-programming/methods/built-in/str
+
+http://python.ez2learn.com/basic/unicode.html
 

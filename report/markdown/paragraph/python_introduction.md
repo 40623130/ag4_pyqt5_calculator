@@ -72,16 +72,30 @@ pass→什麼事都不做
 
 
 判斷式
+---
 
 判斷式就是我們製作計算機時所使用的def calculator的內容裡有寫到
 當達成某一條件時就會執行，反之則不執行
-
 ![if範例][if]
 
 [if]: ./images/python_introduction/if.png {#fig:駱駝}
 
 
----
+
 
 數列
 ---
+
+數列有分為 str、unicode、list、tuple、buffer、xrange
+
+str        →把括號內轉換成適合閱讀的形式
+
+unicode→有點像程式間的翻譯機每一種不同的語言都可以跟unicode互相轉換
+
+list       →把一串你要的資料輸入中括號中，就可以幫你記憶你只有輸入相應位置的數字就會幫你輸入了
+
+tuple    → 跟lisp功能一樣，只差在不能夠修改
+
+buffer  →在python3中改為memoryview，有點像緩存功能
+
+xrange →用法跟range一樣，不同的是可以生成等差數列
