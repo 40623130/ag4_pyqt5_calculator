@@ -107,11 +107,11 @@ author:
 - 設計一甲 40623120 蔡宗穎 
 - 設計一甲 40623121 蔡朝旭
 - 設計一甲 40623128 張華倞
-- 設計一甲 40623129 陳威誠 
+- 設計一甲 40623129 陳威誠 (組長)
 - 設計一甲 40623130 陳鉅忠
 
 advisor_zh: '嚴家銘'
-date: '2017.12.18'
+date: '2017.01.08'
 ---
 
 @others
@@ -193,14 +193,20 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    Fossil SCM
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
+    github
     
-    本研究的重點在於 ...
+    簡易python 語法
+    
+    網路自我診斷
+    
+    免費開源軟體錄影
+    
+    計算機程式語法
+    
+    使用網路表單 Ethercalc 彙整所學
+    
 ---
 
 
@@ -235,20 +241,9 @@ abstract: |
 計算器程式期末報告前言
 
 @others</t>
-<t tx="yen.20170429214838.3">前言內容。
+<t tx="yen.20170429214838.3">為了將來資訊化的時代，讓電腦幫你解決問題，幫你計算，幫你節省時間，幫你處理事情，而學習計算機相關資訊，雖然連入門都還不到，但已經踏出第一隻腳了，接著只要整理所學並擴充所學，一定可以適應將來資訊化的時代。
 
-\ 
-
-一個範例數學式：$$\beta=\cos^{-1}{\frac{L0^{2}+d_{AB}^{2}-R0^{2}}{2\times{L0\times{d_{AB}}}}}$$
-
-\ 
-
-關於數學式可以參考這裡：[http://www.hostmath.com/][]
-
-[http://www.hostmath.com/]: http://www.hostmath.com/
-
-提及了某篇刊物[@myart]在這裡。
-</t>
+自己寫報告覺得很累嗎?不願擔心，有了github，幫你輕鬆大家一起同時寫報告，不用擔心版本新舊，自動幫你合併整合資料，想找舊版資料嗎?別擔心github都幫你記住了，有了github再也不用擔心豬隊友把你的報告搞得一團亂。</t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">可攜程式系統介紹
 ===
@@ -258,18 +253,36 @@ abstract: |
 @others</t>
 <t tx="yen.20170429215130.1">啟動與關閉
 ---
+請參考下圖
 
-Windows 的內容
+![啟動與關閉][start stop]
 
-有一張圖片：
+[start stop]: ./images/portable_system/start stop.png {#fig:駱駝}
 
-![Kmol][]
+按下start後會產生新的磁碟 :Y槽
 
-稱為圖 {@fig:駱駝}。
+![Y槽][after start]
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+[after start]: ./images/portable_system/after start.png {#fig:駱駝}
 
-啟動與關閉2
+
+並同時跳出多個cmd跟SciTE
+
+![cmd][CMD]
+
+![SciTE][scite]
+
+[CMD]: ./images/portable_system/cmd.png {#fig:駱駝}
+[scite]: ./images/portable_system/scite.png {#fig:駱駝}
+
+如果要設定跳出的數量只需要把star.bat拉進SciTE
+
+![把star.bat檔案拉進SciTE][star into]
+
+[star into]: ./images/portable_system/star into.png {#fig:駱駝}
+
+
+
 ---</t>
 <t tx="yen.20170429215252.1">Python 程式語法
 ===
@@ -280,23 +293,46 @@ Python 程式語法
 <t tx="yen.20170429215308.1">變數命名
 ---
 
-IPv4 的內容
+變數必須以英文字母大小寫或底線開頭
 
-有一張圖片：
+其餘字元可以是英文大小寫字母, 數字或底線
 
-![Kmol][]
+變數區分英文大小寫
 
-稱為圖 {@fig:駱駝}。
+變數不限字元長度
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+不可使用關鍵字當作變數名稱
 
-[Kmol]: ./images/kmol.png {#fig:駱駝}
+變數命名時須避開下列字串
+
+False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+
+
 
 print 函式
 ---
 
+print() 為 Python 程式語言中用來列印數值或字串的函式
+
+列印數值只需要在括號中打入數字，列印文字則需要加上" "來包住文字，
+也可以用逗號隔開兩個要列印的數值或文字，它就會直接列印兩個了。
+
+![Print簡易範例][print]
+
+[print]: ./images/python_introduction/print.png {#fig:駱駝}
+
+
+
 重複迴圈
 ---
+
+重複迴圈分為while迴圈與for迴圈
+
+
+![for迴圈簡易範例][for]
+
+[for]: ./images/python_introduction/for.png {#fig:駱駝}
+
 
 判斷式
 ---

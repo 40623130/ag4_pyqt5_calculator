@@ -9,23 +9,29 @@ author:
 - 設計一甲 40623120 蔡宗穎 
 - 設計一甲 40623121 蔡朝旭
 - 設計一甲 40623128 張華倞
-- 設計一甲 40623129 陳威誠 
+- 設計一甲 40623129 陳威誠 (組長)
 - 設計一甲 40623130 陳鉅忠
 
 advisor_zh: '嚴家銘'
-date: '2017.12.18'
+date: '2017.01.08'
 ---
 
 ---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    Fossil SCM
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
+    github
     
-    本研究的重點在於 ...
+    簡易python 語法
+    
+    網路自我診斷
+    
+    免費開源軟體錄影
+    
+    計算機程式語法
+    
+    使用網路表單 Ethercalc 彙整所學
+    
 ---
 
 

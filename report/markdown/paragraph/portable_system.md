@@ -5,16 +5,34 @@
 
 啟動與關閉
 ---
+請參考下圖
 
-Windows 的內容
+![啟動與關閉][start stop]
 
-有一張圖片：
+[start stop]: ./images/portable_system/start stop.png {#fig:駱駝}
 
-![Kmol][]
+按下start後會產生新的磁碟 :Y槽
 
-稱為圖 {@fig:駱駝}。
+![Y槽][after start]
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+[after start]: ./images/portable_system/after start.png {#fig:駱駝}
 
-啟動與關閉2
+
+並同時跳出多個cmd跟SciTE
+
+![cmd][CMD]
+
+![SciTE][scite]
+
+[CMD]: ./images/portable_system/cmd.png {#fig:駱駝}
+[scite]: ./images/portable_system/scite.png {#fig:駱駝}
+
+如果要設定跳出的數量只需要把star.bat拉進SciTE
+
+![把star.bat檔案拉進SciTE][star into]
+
+[star into]: ./images/portable_system/star into.png {#fig:駱駝}
+
+
+
 ---
