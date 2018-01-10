@@ -1,10 +1,9 @@
 參考文獻
 ===
-超連結:
 
-[淺談 Python 的 for 迴圈](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84-for-%E8%BF%B4%E5%9C%88/)
+https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84-for-%E8%BF%B4%E5%9C%88/
 
-[MarkDown表單製作](http://www.tablesgenerator.com/markdown_tables#)
+http://www.tablesgenerator.com/markdown_tables
 
 https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5
 
@@ -18,11 +17,9 @@ https://www.programiz.com/python-programming/methods/built-in/str
 
 http://python.ez2learn.com/basic/unicode.html
 
-[程式開發]ilms.csu.edu.tw/sys/read_attach.php?id=814178
-
 https://www.uuu.com.tw/Public/content/Edm/171115_brochure/pdf/Python.pdf
 
-[PyQt5簡介]https://yungyuc.github.io/oldtech/python/python_intro.html
+https://yungyuc.github.io/oldtech/python/python_intro.html
 
 https://kaochenlong.com/2011/10/12/python-introduction/
 
