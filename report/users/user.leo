@@ -9,114 +9,78 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="ahshoe.20161120121808.1" a="E"><vh>@settings</vh>
-<v t="ahshoe.20170315212615.1"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="ahshoe.20170315212626.1"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20171122223841.1"><vh>@settings</vh>
+<v t="leo.20171122223841.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20171122223841.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="40323230.20170123213451.1"><vh>@button Report pdf</vh></v>
-<v t="yen.20170429132400.1"><vh>協同著作規劃</vh></v>
-<v t="leo.20171218141522.1"><vh>報告章節規劃</vh></v>
-<v t="yen.20170429103742.1" a="E"><vh>@path ./../</vh>
-<v t="yen.20170429103940.1" a="E"><vh>@path markdown</vh>
-<v t="ahshoe.20170322182713.1"><vh>@edit reference.md</vh></v>
-<v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
-<v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
-<v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
-<v t="ahshoe.20170317115820.1"><vh>摘要</vh></v>
+<v t="leo.20171122224051.1" a="E"><vh>有關本專案</vh>
+<v t="leo.20171122224436.1"><vh>PyQt5 官方程式碼</vh></v>
 </v>
+<v t="leo.20171122224218.1"><vh>目錄規劃</vh></v>
+<v t="leo.20171128054443.1"><vh>第十二週練習</vh></v>
+<v t="leo1.20171221091300.1" a="E"><vh>第十五週練習</vh>
+<v t="leo1.20171221092733.1" a="E"><vh>@path ./../eric6_project</vh>
+<v t="leo1.20171221092753.1"><vh>@auto ref1.py</vh></v>
 </v>
-<v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
-<v t="yen.20170429214845.1" a="E"><vh>@path paragraph</vh>
-<v t="yen.20170429214838.1"><vh>@clean introduction.md</vh>
-<v t="yen.20170429214838.3"><vh>前言內容</vh></v>
-</v>
-<v t="yen.20170429215041.1"><vh>@clean portable_system.md</vh>
-<v t="yen.20170429215130.1"><vh>可攜程式系統介紹</vh></v>
-</v>
-<v t="yen.20170429215252.1"><vh>@clean python_introduction.md</vh>
-<v t="yen.20170429215308.1"><vh>Python 程式語法介紹</vh></v>
-</v>
-<v t="yen.20170429215416.1"><vh>@clean pyqt5_introduction.md</vh>
-<v t="yen.20170429215446.2"><vh>PyQt5 語法介紹</vh></v>
-</v>
-<v t="yen.20170429215617.1" a="E"><vh>@clean calculator.md</vh>
-<v t="yen.20170429215851.1"><vh>計算機程式內容</vh></v>
-</v>
-<v t="yen.20170429215922.1" a="E"><vh>@clean discussion.md</vh>
-<v t="yen.20170429220001.1" a="M"><vh>程式開發心得</vh></v>
-</v>
-<v t="yen.20170429220128.1" a="E"><vh>@clean results.md</vh>
-<v t="yen.20170429220137.1"><vh>期末報告結論</vh></v>
-</v>
-<v t="yen.20170429220335.1" a="E"><vh>@clean appendix.md</vh>
-<v t="yen.20170429220335.2"><vh>附錄</vh></v>
+<v t="leo1.20171221093153.1" a="E"><vh>@path ./../final_project</vh>
+<v t="leo1.20171221093205.1" a="E"><vh>@path ui</vh>
+<v t="leo1.20171221093225.1"><vh>@auto Dialog1.py</vh></v>
 </v>
 </v>
 </v>
+<v t="leo1.20171221090839.1"><vh>Fossil SCM 內容</vh></v>
+<v t="leo1.20171221090811.1" a="E"><vh>期末報告編寫</vh>
+<v t="leo1.20171221090921.1"><vh>@button Report pdf</vh></v>
+<v t="leo1.20171221090954.1" a="E"><vh>@path ./..</vh>
+<v t="leo1.20171221091031.1" a="E"><vh>@path markdown</vh>
+<v t="leo1.20171221091031.2"><vh>@edit reference.md</vh></v>
+<v t="leo1.20171221091031.3"><vh>@edit refer.bib</vh></v>
+<v t="leo1.20171221091031.4"><vh>封面以及摘要</vh>
+<v t="leo1.20171221091031.5" a="E"><vh>@clean cover_and_abstract.md</vh>
+<v t="leo1.20171221091031.6"><vh>摘要</vh></v>
+</v>
+</v>
+<v t="leo1.20171221091031.7" a="E"><vh>各章節內容</vh>
+<v t="leo1.20171221091031.8" a="E"><vh>@path paragraph</vh>
+<v t="leo1.20171221091031.9"><vh>@clean introduction.md</vh>
+<v t="leo1.20171221091031.10"><vh>前言內容</vh></v>
+</v>
+<v t="leo1.20171221091031.11"><vh>@clean portable_system.md</vh>
+<v t="leo1.20171221091031.12"><vh>可攜程式系統介紹</vh></v>
+</v>
+<v t="leo1.20171221091031.13"><vh>@clean python_introduction.md</vh>
+<v t="leo1.20171221091031.14"><vh>Python 程式語法介紹</vh></v>
+</v>
+<v t="leo1.20171221091031.15"><vh>@clean pyqt5_introduction.md</vh>
+<v t="leo1.20171221091031.16"><vh>PyQt5 語法介紹</vh></v>
+</v>
+<v t="leo1.20171221091031.17"><vh>@clean calculator.md</vh>
+<v t="leo1.20171221091031.18"><vh>計算機程式內容</vh></v>
+</v>
+<v t="leo1.20171221091031.19"><vh>@clean discussion.md</vh>
+<v t="leo1.20171221091031.20"><vh>程式開發心得</vh></v>
+</v>
+<v t="leo1.20171221091031.21" a="E"><vh>@clean results.md</vh>
+<v t="leo1.20171221091031.22"><vh>期末報告結論</vh></v>
+</v>
+<v t="leo1.20171221091031.23" a="E"><vh>@clean appendix.md</vh>
+<v t="leo1.20171221091031.24"><vh>附錄</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20180110233617.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20180110233617.2"><vh>Recovered node "摘要" from @clean cover_and_abstract.md</vh>
+<v t="leo.20180110233617.3"><vh>old:摘要</vh></v>
+<v t="leo.20180110233617.4"><vh>new:摘要</vh></v>
 </v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="40323230.20170123213451.1">@language python
-filename = "report"
-import os, platform
-# 更換目錄到 markdown 
-os.chdir("./../markdown")
-
-# 若在 Linux 環境則使用 ukai.ttc 系統字形
-if platform.system().lower()=="linux": font = "ukai.ttc"
-# 在 windows 環境使用 SimSun 字形
-elif platform.system().lower()=="windows": font = "SimSun"
-else: font = "Arial"
-fontsize = "12"
-margin = "1in"
-# --pdf-engine 使用 xelatex
-# lang 請參照 https://tools.ietf.org/html/bcp47, 這裡的 zh-cmn 為 Mandarin Chinese 國語
-# -V lang=zh-cmn 為一組 key=value 對應的 Variable 設定
-# -N 表示 Number section headings in LaTeX, ConTeXt, HTML, or EPUB output. By default, sections are not numbered.
-settingFlag = "--pdf-engine=xelatex -V lang=zh-cmn -N --toc --highlight-style kate -V documentclass=report  --filter pandoc-fignos --filter pandoc-tablenos --template=template.tex -V \"CJKmainfont:{0}\" -V fontsize={1}pt -V geometry:margin={2} --bibliography=refer.bib --csl=ieee.csl".format(font, fontsize, margin)
-g.es("---Pandoc---")
-
-# 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
-chapter_list = " ".join("./paragraph/" + i for i in [
-"introduction.md",
-"portable_system.md", 
-"python_introduction.md", 
-"pyqt5_introduction.md", 
-"calculator.md", 
-"discussion.md", 
-"results.md", 
-])
-
-# 若系統並未正確轉檔, 可以將 os.system 改為 g.es 表示要使用 Leo Editor 的 global 物件中的 echo string 將指令印在 log 區
-# 然後複製指令, 然後在命令列視窗中的 markdown 目錄中執行, 就可以得到錯誤訊息
-# 或許可以再從 https://stackoverflow.com/questions/26005583/return-value-of-x-os-system 中的建議改進此一指令
-g.es(os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag)))
-g.es("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
-g.es("PDF 轉換完畢")
-g.es('-'*12)</t>
-<t tx="ahshoe.20161120121808.1"></t>
-<t tx="ahshoe.20161120122151.1">---
-university_zh: '國立虎尾科技大學'
-institute_zh: '機械設計工程系'
-category_zh: '計算機程式 ag4 期末報告'
-title_zh: 'PyQt5 事件導向計算器'
-title_en: 'PyQt5 Event-Driven Calculator Project'
-author:
-- 設計一甲 40623119 歐宗韋
-- 設計一甲 40623120 蔡宗穎 
-- 設計一甲 40623121 蔡朝旭
-- 設計一甲 40623128 張華倞
-- 設計一甲 40623129 陳威誠 (組長)
-- 設計一甲 40623130 陳鉅忠
-
-advisor_zh: '嚴家銘'
-date: '2017.01.08'
----
-
-@others
-</t>
-<t tx="ahshoe.20170315212615.1">QTreeWidget {
+<t tx="leo.20171122223841.1"></t>
+<t tx="leo.20171122223841.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -189,9 +153,131 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="ahshoe.20170315212626.1">horizontal: body pane to the left
+<t tx="leo.20171122223841.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="ahshoe.20170317115820.1">---
+<t tx="leo.20171122224051.1">這是一個用於 2017 Fall 計算機程式用的 demo 專案
+
+主倉儲位於 Github, 用來展示如何透過協同開發普通的計算機視窗程式
+
+此倉儲存在 Github 的 gh-pages 分支, 因為希望能夠同時利用網際投影片與網際網誌展示相關資料
+
+</t>
+<t tx="leo.20171122224218.1">users 為各用戶存各自的 .leo 檔案專用
+
+eric6_project 存放計算機專案程式
+
+其他目錄將會配合 Fossil SCM 中的 reveal 簡報與 Pelican 網誌, 隨後將會加入
+
+</t>
+<t tx="leo.20171122224436.1">存在 eric6_project 目錄中的 ref.py, 主要用於開發過程中的變數名稱參照</t>
+<t tx="leo.20171128054443.1">從 eric6_project 目錄中複製 run.py 以及 ui 目錄下的 Dialog.ui 檔案 (同樣放在 ui 目錄下)
+
+然後放入 final_project 目錄中, 接著在 final_project 目錄中, 以 Eric6 建立新的 finalproject 專案, 並且以 add existing files 納入 run.py 以及 ui/Dialog.ui
+
+目的是取得 Dialog.ui 中各物件的格式與命名.
+
+接著從 ref.py 檔案中, 在 以
+
+for key in calc.__dict__:
+    print(key)
+
+取得 Calculator 類別的所有屬性 (所有對話框中物件名稱) 如下:
+
+pendingAdditiveOperator
+pendingMultiplicativeOperator
+sumInMemory
+sumSoFar
+factorSoFar
+waitingForOperand
+display
+digitButtons
+pointButton
+changeSignButton
+backspaceButton
+clearButton
+clearAllButton
+clearMemoryButton
+readMemoryButton
+setMemoryButton
+addToMemoryButton
+divisionButton
+timesButton
+minusButton
+plusButton
+squareRootButton
+powerButton
+reciprocalButton
+equalButton
+
+利用
+
+for key in vars(Calculator):
+    if not key.startswith("__"):
+        print(key)
+
+列出所有屬性 (所有成員方法) 類別:
+
+digitClicked
+unaryOperatorClicked
+additiveOperatorClicked
+multiplicativeOperatorClicked
+equalClicked
+pointClicked
+changeSignClicked
+backspaceClicked
+clear
+clearAll
+clearMemory
+readMemory
+setMemory
+addToMemory
+createButton
+abortOperation
+calculate</t>
+<t tx="leo.20180110233617.1"></t>
+<t tx="leo.20180110233617.2">(uncached) leo1.20171221091031.6
+Diff...
+  ---
+  abstract: |
+-     Fossil SCM
++     這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+      
+-     github
++     + 以 YAML 的方式插入。
++     + The '+' indicator says to keep newlines at the end of text blocks.
++     + 使用 Markdown 語法。
++     + 前面使用加號
+      
++     本研究的重點在於 ...
+-     簡易python 語法
+-     
+-     網路自我診斷
+-     
+-     免費開源軟體錄影
+-     
+-     計算機程式語法
+-     
+-     使用網路表單 Ethercalc 彙整所學
+-     
+  ---
+  
+  
+</t>
+<t tx="leo.20180110233617.3">---
+abstract: |
+    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    
+    + 以 YAML 的方式插入。
+    + The '+' indicator says to keep newlines at the end of text blocks.
+    + 使用 Markdown 語法。
+    + 前面使用加號
+    
+    本研究的重點在於 ...
+---
+
+
+</t>
+<t tx="leo.20180110233617.4">---
 abstract: |
     Fossil SCM
     
@@ -211,47 +297,60 @@ abstract: |
 
 
 </t>
-<t tx="leo.20171119234752.1"></t>
-<t tx="leo.20171119234822.1"></t>
-<t tx="leo.20171218141522.1">標題頁 - 含報告標題、作者、日期與所屬單位
-目錄 - 列出全文章節與所屬頁面連結
-摘要 - 解釋報告編寫動機、報告重點、結論、建議與關鍵字
+<t tx="leo1.20171221090811.1"></t>
+<t tx="leo1.20171221090839.1"></t>
+<t tx="leo1.20171221090921.1">@language python
+filename = "report"
+import os, platform
+# 更換目錄到 markdown 
+os.chdir("./../markdown")
 
-前言 - 簡要描述全文意旨與背景, 說明報告目標與報告內容組成架構
+# 若在 Linux 環境則使用 ukai.ttc 系統字形
+if platform.system().lower()=="linux": font = "ukai.ttc"
+# 在 windows 環境使用 SimSun 字形
+elif platform.system().lower()=="windows": font = "SimSun"
+else: font = "Arial"
+fontsize = "12"
+margin = "1in"
+# --pdf-engine 使用 xelatex
+# lang 請參照 https://tools.ietf.org/html/bcp47, 這裡的 zh-cmn 為 Mandarin Chinese 國語
+# -V lang=zh-cmn 為一組 key=value 對應的 Variable 設定
+# -N 表示 Number section headings in LaTeX, ConTeXt, HTML, or EPUB output. By default, sections are not numbered.
+settingFlag = "--pdf-engine=xelatex -V lang=zh-cmn -N --toc --highlight-style kate -V documentclass=report  --filter pandoc-fignos --filter pandoc-tablenos --template=template.tex -V \"CJKmainfont:{0}\" -V fontsize={1}pt -V geometry:margin={2} --bibliography=refer.bib --csl=ieee.csl".format(font, fontsize, margin)
+g.es("---Pandoc---")
 
-內文 - 依照章節標題, 詳細說明報告內容, 包括方法、操作步驟與所得結果的詳細說明
+# 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
+chapter_list = " ".join("./paragraph/" + i for i in [
+"introduction.md",
+"portable_system.md", 
+"python_introduction.md", 
+"pyqt5_introduction.md", 
+"calculator.md", 
+"discussion.md", 
+"results.md", 
+])
 
-結論 - 條列所獲致的重要成果, 與摘要及導言中的目標互相呼應
+# 若系統並未正確轉檔, 可以將 os.system 改為 g.es 表示要使用 Leo Editor 的 global 物件中的 echo string 將指令印在 log 區
+# 然後複製指令, 然後在命令列視窗中的 markdown 目錄中執行, 就可以得到錯誤訊息
+# 或許可以再從 https://stackoverflow.com/questions/26005583/return-value-of-x-os-system 中的建議改進此一指令
+g.es(os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag)))
+g.es("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
+g.es("PDF 轉換完畢")
+g.es('-'*12)</t>
+<t tx="leo1.20171221090954.1"></t>
+<t tx="leo1.20171221091031.1"></t>
+<t tx="leo1.20171221091031.10">為了將來資訊化的時代，讓電腦幫你解決問題，幫你計算，幫你節省時間，幫你處理事情，而學習計算機相關資訊，雖然連入門都還不到，但已經踏出第一隻腳了，接著只要整理所學並擴充所學，一定可以適應將來資訊化的時代。
 
-討論與建議 - 說明後續值得進行的方向、方法與可能遭遇問題的討論
-
-參考 - 詳列所引用的參考內容
-
-附錄 - 附加值得參考的詳細內容</t>
-<t tx="yen.20170429103742.1"></t>
-<t tx="yen.20170429103940.1"></t>
-<t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案
-
-各自選擇要編輯的 .md 檔案, 可以使用 @edit 或 @clean 節點編輯指令
-
-除非必要否則不更動 markdown 目錄下的 template.tex 檔案</t>
-<t tx="yen.20170429214838.1">前言
-===
-
-計算器程式期末報告前言
-
-@others</t>
-<t tx="yen.20170429214838.3">為了將來資訊化的時代，讓電腦幫你解決問題，幫你計算，幫你節省時間，幫你處理事情，而學習計算機相關資訊，雖然連入門都還不到，但已經踏出第一隻腳了，接著只要整理所學並擴充所學，一定可以適應將來資訊化的時代。
-
-自己寫報告覺得很累嗎?不願擔心，有了github，幫你輕鬆大家一起同時寫報告，不用擔心版本新舊，自動幫你合併整合資料，想找舊版資料嗎?別擔心github都幫你記住了，有了github再也不用擔心豬隊友把你的報告搞得一團亂。</t>
-<t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429215041.1">可攜程式系統介紹
+自己寫報告覺得很累嗎?不願擔心，有了github，幫你輕鬆大家一起同時寫報告，不用擔心版本新舊，自動幫你合併整合資料，想找舊版資料嗎?別擔心github都幫你記住了，有了github再也不用擔心豬隊友把你的報告搞得一團亂。
+</t>
+<t tx="leo1.20171221091031.11">可攜程式系統介紹
 ===
 
 可攜程式系統介紹
 
-@others</t>
-<t tx="yen.20170429215130.1">啟動與關閉
+@others
+</t>
+<t tx="leo1.20171221091031.12">啟動與關閉
 ---
 請參考下圖
 
@@ -283,14 +382,16 @@ abstract: |
 
 
 
----</t>
-<t tx="yen.20170429215252.1">Python 程式語法
+---
+</t>
+<t tx="leo1.20171221091031.13">Python 程式語法
 ===
 
 Python 程式語法
 
-@others</t>
-<t tx="yen.20170429215308.1">變數命名
+@others
+</t>
+<t tx="leo1.20171221091031.14">變數命名
 ---
 
 變數必須以英文字母大小寫或底線開頭
@@ -385,14 +486,16 @@ tuple    → 跟lisp功能一樣，只差在不能夠修改
 
 buffer  →在python3中改為memoryview，有點像緩存功能
 
-xrange →用法跟range一樣，不同的是可以生成等差數列</t>
-<t tx="yen.20170429215416.1"> PyQt5 簡介
+xrange →用法跟range一樣，不同的是可以生成等差數列
+</t>
+<t tx="leo1.20171221091031.15"> PyQt5 簡介
 ===
 
 說明 PyQt5 基本架構與程式開發流程
 
-@others</t>
-<t tx="yen.20170429215446.2">PyQt5 優點
+@others
+</t>
+<t tx="leo1.20171221091031.16">PyQt5 優點
 ---
 
 PyQt5有幾項特點
@@ -421,13 +524,13 @@ Python 程式會存成 .py檔，在 Windows 下的 Python 安裝程式會自動�
 
 
 </t>
-<t tx="yen.20170429215617.1">Calculator 程式
+<t tx="leo1.20171221091031.17">Calculator 程式
 ===
 
 Calculator 程式細部說明
 
 @others</t>
-<t tx="yen.20170429215851.1">建立對話框
+<t tx="leo1.20171221091031.18">建立對話框
 ---
 
 自動控制 的內容
@@ -465,32 +568,28 @@ Table: 價目表 {#tbl:價目表}
 ---
 
 </t>
-<t tx="yen.20170429215922.1">心得
+<t tx="leo1.20171221091031.19">心得
 ===
 
 期末報告心得
 
-@others</t>
-<t tx="yen.20170429220001.1">Fossil SCM
+@others
+</t>
+<t tx="leo1.20171221091031.20">Fossil SCM
 ---
 
 40623128張華倞: 
 fossil SCM 是我們在接觸github之前先接觸的網路倉儲，這讓我了解到網路倉儲的方便性，用別人電腦也可以更改倉儲資料，還可以檢視我在何時改了什麼，因此更加容易找到錯誤，只要對照之前的就知道我哪裡多改了。
 
 40623121蔡朝旭 :
-<<<<<<< HEAD
  Fossil SCM可以說是讓我更快了解github指令的基石，只要有隨身碟，不管有沒有網路，或是在哪裡的電腦都能查看.上傳.修改倉儲內容，而且Fossil SCM還能使用html的語法來客製自己的倉儲使其改成自己的風格。
  
- 40623129陳威誠:
+40623129陳威誠:
  雖然剛接觸fossil SCM覺得很陌生很困難，現在我知道只要先將資料取出並存放至使用者的工作目錄，等到完成了新增、修改等各種工作，再將本地端的資料回存，就可完成fossil的處理作業。
-  
-=======
-Fossil SCM可以說是讓我更快了解github指令的基石，只要有隨身碟，不管有沒有網路，或是在哪裡的電腦都能查看.上傳.修改倉儲內容，而且Fossil SCM還能使用html的語法來客製自己的倉儲使其改成自己的風格。
  
- 40623119歐宗韋：
+40623119歐宗韋：
 最開始老師講到Fossil SCM時，我聽都聽不懂，可是經過幾次上課以後我就慢慢了解怎麼使用，只要有USB在哪裡都可以做，不需用到網路就能工作，是一件非常酷的事情，雖然還不怎麼熟悉，但是還是懂得裡面操縱內容。
 
->>>>>>> 539eec062d1e154086fff0d94c38ba2df70d95e0
 網誌心得
 ---
 
@@ -535,41 +634,100 @@ github是個能讓許多人一起完成協同開發同一項程式，就算許�
 40623120蔡宗穎 : 
 我是組別裡面比較不擅長的人，所以常常要請教我們組比較會的人，幸好大家都很樂於教導不會不耐煩，讓我更快了解課程的精隨。
 
-<<<<<<< HEAD
+
 40623129陳威誠:
 因為我學習的速度跟組員們相比落後的很多，所以在開發計算機程式的時候也只能做比較簡單的工作，但是組裡的人在製作的過程我都會去旁邊看慢慢學習，希望日後我能跟上他們，在一起做出更棒的程式。
-=======
+
 40623119歐宗韋：
 上完這學期的課程後，我學到了很多，而且跟小組成員們一起完成計算機程式，小組加減乘除有問題時我們一起討論與修改，完成後蠻有成就感的，有問題成員們會一起討論這一點我覺得非常的好，不只可以增長知識，也增進組員的感情。
 
->>>>>>> 539eec062d1e154086fff0d94c38ba2df70d95e0
 
-說明各學員任務與執行過程</t>
-<t tx="yen.20170429220128.1">結論
+</t>
+<t tx="leo1.20171221091031.21">結論
 ===
 
 期末報告結論
 
-@others</t>
-<t tx="yen.20170429220137.1">結論與建議
+@others
+</t>
+<t tx="leo1.20171221091031.22">結論與建議
 ---
 
 結論 : 老師非常專業，英文講得流利，富有國際觀，又會在課堂中講解人生的道理，讓人不會討厭早八並且非常專心的上課，在這個international而且資訊化的社會，勢必會轉變現代的產業類型，這堂課剛好是上資訊類型的東西，對於出社會有非常大的幫助。
 
 
-建議 : 拍課程影片是個很不錯的方法，只是如果把進度放慢些會更好。</t>
-<t tx="yen.20170429220335.1">附錄
+建議 : 拍課程影片是個很不錯的方法，只是如果把進度放慢些會更好。
+</t>
+<t tx="leo1.20171221091031.23">附錄
 ===
 
 附錄內容
 
 @others</t>
-<t tx="yen.20170429220335.2">專案執行會議紀錄
+<t tx="leo1.20171221091031.24">專案執行會議紀錄
 ---
 
 操作過程照片
 ---
 
 操作過程照片</t>
+<t tx="leo1.20171221091031.4"></t>
+<t tx="leo1.20171221091031.5">---
+university_zh: '國立虎尾科技大學'
+institute_zh: '機械設計工程系'
+category_zh: '計算機程式 ag4 期末報告'
+title_zh: 'PyQt5 事件導向計算器'
+title_en: 'PyQt5 Event-Driven Calculator Project'
+author:
+- 設計一甲 40623119 歐宗韋
+- 設計一甲 40623120 蔡宗穎 
+- 設計一甲 40623121 蔡朝旭
+- 設計一甲 40623128 張華倞
+- 設計一甲 40623129 陳威誠 (組長)
+- 設計一甲 40623130 陳鉅忠
+
+advisor_zh: '嚴家銘'
+date: '2017.01.08'
+---
+
+@others
+</t>
+<t tx="leo1.20171221091031.6">---
+abstract: |
+    Fossil SCM
+    
+    github
+    
+    簡易python 語法
+    
+    網路自我診斷
+    
+    免費開源軟體錄影
+    
+    計算機程式語法
+    
+    使用網路表單 Ethercalc 彙整所學
+    
+---
+
+
+</t>
+<t tx="leo1.20171221091031.7"></t>
+<t tx="leo1.20171221091031.8"></t>
+<t tx="leo1.20171221091031.9">前言
+===
+
+計算器程式期末報告前言
+
+@others
+</t>
+<t tx="leo1.20171221091300.1">確定數字按鈕可以點擊後, 列出字串堆疊的數字
+
+如何讓 + 或 - 按鈕可以運作, 按下 13 + 5 = 顯示幕中會出現 18
+
+過程中有那些狀態必須判斷與隨情況重置?</t>
+<t tx="leo1.20171221092733.1"></t>
+<t tx="leo1.20171221093153.1"></t>
+<t tx="leo1.20171221093205.1"></t>
 </tnodes>
 </leo_file>
