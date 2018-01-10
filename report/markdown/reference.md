@@ -18,9 +18,13 @@ https://www.programiz.com/python-programming/methods/built-in/str
 
 http://python.ez2learn.com/basic/unicode.html
 
-[PyQt5程式簡介]ilms.csu.edu.tw/sys/read_attach.php?id=814178
+[程式開發]ilms.csu.edu.tw/sys/read_attach.php?id=814178
 
 https://www.uuu.com.tw/Public/content/Edm/171115_brochure/pdf/Python.pdf
+
+[PyQt5簡介]https://yungyuc.github.io/oldtech/python/python_intro.html
+
+https://kaochenlong.com/2011/10/12/python-introduction/
 
 
 
